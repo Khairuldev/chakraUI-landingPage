@@ -1,0 +1,75 @@
+body {
+  background-color: #1a1a1a;
+}
+
+.bg-default {
+  background-color: #1a1a1a;
+}
+
+.bg-default2 {
+  background-color: #262626;
+}
+
+.bg-logo {
+  background-color: #ffc630;
+}
+
+.bg-logo-triangle {
+  background: yellow linear-gradient(#ffc630);
+  clip-path: polygon(50% 100%, 100% 0%, 0% 0%);
+}
+
+.text-transparent {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.text-logo {
+  color: #ffc630;
+}
+.sample-text {
+  color: hsl(42deg 53% 34%);
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.hero {
+  background-image: url("./assets/hero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.text-logo-fotter {
+  color: white;
+  padding-bottom: 10px;
+}
+
+.text-logo-fotter-p {
+  color: white;
+  font-size: small;
+  letter-spacing: 1px;
+}
+
+.input-box {
+  position: relative;
+}
+
+.input-box img {
+  position: absolute;
+  right: 13px;
+  top: 15px;
+  color: #ced4da;
+}
+
+.form-control {
+  height: 50px;
+  background-color: #ffffff;
+}
+
+.form-control:focus {
+  background-color: #eeeeee69;
+  box-shadow: none;
+  border-color: #eee;
+}
